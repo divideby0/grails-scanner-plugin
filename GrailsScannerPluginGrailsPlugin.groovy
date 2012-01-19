@@ -34,7 +34,7 @@ Brief description of the plugin.
     }
 
     def doWithApplicationContext = { applicationContext ->
-        def disableScanning = ConfigurationHolder.config.grails?.scanner?.disable
+        def disableScanning = ConfigurationHolder.config.grails?.scan?.disable
 	
 		if(disableScanning) {
 			manager.metaClass.startPluginChangeScanner = { ->
