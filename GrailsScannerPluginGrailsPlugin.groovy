@@ -13,15 +13,15 @@ class GrailsScannerPluginGrailsPlugin {
     ]
 
     // TODO Fill in these fields
-    def author = "Your name"
-    def authorEmail = ""
-    def title = "Plugin summary/headline"
+    def author = "Cedric G Hurst II"
+    def authorEmail = "cedric@spantree.net"
+    def title = "Grails Scanner Plugin"
     def description = '''\\
-Brief description of the plugin.
+A plugin to customize grails resource and configuration scanning behavior
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/grails-scanner-plugin"
+    def documentation = "https://github.com/divideby0/grails-scanner-plugin"
 
     def doWithWebDescriptor = { xml ->
         // TODO Implement additions to web.xml (optional), this event occurs before 
