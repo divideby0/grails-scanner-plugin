@@ -10,7 +10,9 @@ log4j = {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
 
-	debug 'org.codehaus.groovy.grails.plugins'
+	debug 'org.codehaus.groovy.grails.plugins',
+		  'org.codehaus.groovy.grails.web.filters'
+	
 
     info  'org.codehaus.groovy.grails.web.servlet',  //  controllers
            'org.codehaus.groovy.grails.web.pages', //  GSP
