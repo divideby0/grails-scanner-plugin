@@ -27,6 +27,8 @@ class ScannerSitemeshFilters {
 							long time = System.currentTimeMillis()
 							configLastCheck = time;
 							
+							log.info "inside the overriden refresh method"
+							
 							if(configFile != null && !configLastCheck) {
 								loadConfig()
 							}
